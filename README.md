@@ -91,8 +91,6 @@ Pressing 'Get Current Location' populates the visible fields with data retrieved
 
 ![Accelerometer values](../raw/node/docs/Sencha_device_api_acclerometer.png)
 
-Accelerometer values
-
 For devices with an Accelerometer, this feature shows motion along the X,Y and Z axis whenever the 'Get Reading' button is pressed. Alternatively, the 'Monitor' button can be pressed to monitor the Axis readings at regular intervals. The most popular use for Accelerometer readings in Apps is game controlling. Other uses could include motion detection for step counters, or innovative ways of doing navigation or showing different content.
 
 #### Notify
