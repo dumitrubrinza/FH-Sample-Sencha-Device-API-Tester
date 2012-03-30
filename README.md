@@ -168,8 +168,10 @@ $fh.geo({interval: 0}, function (res) {
 ```
 
 #### Audio
-
-![Options before playing](FH-Sample-Sencha-Device-API-Tester/raw/node/docs/Sencha_device_api_audio_opts.png)
+https://github.com/david-martin/FH-Sample-Sencha-Device-API-Tester/tree/node
+https://github.com/david-martin/FH-Sample-Sencha-Device-API-Tester/blob/node/docs/Sencha_device_api_webview.png
+https://github.com/david-martin/FH-Sample-Sencha-Device-API-Tester/tree/node/docs/Sencha_device_api_acclerometer.png?raw=true
+![Options before playing](../raw/node/docs/Sencha_device_api_audio_opts.png)
 
 ![Audio successfully playing](FH-Sample-Sencha-Device-API-Tester/raw/node/docs/Sencha_device_api_audio_playing.png)
 
