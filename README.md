@@ -69,13 +69,13 @@ The second way is by pressing 'On-Device Contacts GUI'. This method tells the De
 
 #### Log Message
 
-![Log Message screen](raw/node/docs/Sencha_device_api_log.png)
+![Log Message screen](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_log.png)
 
 This feature is to demonstrate debugging an App. It currently works on iOS if the App is being run from Xcode. The message entered in the box will be output to the Xcode Organiser console. If using the App in a desktop browser, the message will be logged to the console, if one is available e.g. Firebug Console in Firefox, Web Inspector Console in Chrome & Safari.
 
 #### Data Storage
 
-![Data Storage screen](raw/node/docs/Sencha_device_api_data.png)
+![Data Storage screen](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_data.png)
 
 Data Storage demonstrates On-Device persistent storage. It works by saving key-value entries. Any data stored for a specific key can be retrieved using that same key, even if the App is shut down and relaunched. One example of how this could be useful is by storing a Users preferences so that an App can configure itself according to how the User likes.
 
@@ -83,25 +83,25 @@ Another good example of Data Storage that this App uses is storing initialisatio
 
 #### Geolocation
 
-![Geolocation values](raw/node/docs/Sencha_device_api_geolocation.png)
+![Geolocation values](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_geolocation.png)
 
 Pressing 'Get Current Location' populates the visible fields with data retrieved from the Device's GPS or other positioning system. Not all fields are supported by all devices, but the most important ones for Latitude and Longitude generally are. Geolocation data can be a very powerful addition to Apps where location based services are involved. Combined with the Map functionality, Geolocation can provide a basic graphic location to Users without much work at all.
 
 #### Accelerometer
 
-![Accelerometer values](raw/node/docs/Sencha_device_api_acclerometer.png)
+![Accelerometer values](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_acclerometer.png)
 
 For devices with an Accelerometer, this feature shows motion along the X,Y and Z axis whenever the 'Get Reading' button is pressed. Alternatively, the 'Monitor' button can be pressed to monitor the Axis readings at regular intervals. The most popular use for Accelerometer readings in Apps is game controlling. Other uses could include motion detection for step counters, or innovative ways of doing navigation or showing different content.
 
 #### Notify
 
-![Notification screen](raw/node/docs/Sencha_device_api_notify.png)
+![Notification screen](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_notify.png)
 
 This feature is quite simple. Press 'Vibrate' to vibrate the device for a few seconds. Pressing 'Beep' will play a beep sound. More detailed information on Audio is detailed below.
 
 #### Photos
 
-![Photos screen](raw/node/docs/Sencha_device_api_photo.png)
+![Photos screen](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_photo.png)
 
 This feature allows the User to display an image in the App. The image can be retrieved from the Device's Camera or Image Gallery. Pressing 'Use Camera' will start the On-Device Camera Application. Once a picture is taken and chosen, it will return to the App and the Image will be shown. If 'Use Photo Gallery' is selected, the On-Device Image Gallery is shown and the User can select an Image. Once an Image is chosen, it will return to the App and show the Image.
 
@@ -120,19 +120,19 @@ items.get(items.length - 1).update({
 
 #### Messaging
 
-![SMS and E-mail options](raw/node/docs/Sencha_device_api_messaging.png)
+![SMS and E-mail options](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_messaging.png)
 
 The messaging section demonstrates how to start the On-Device SMS or E-Mail Application with pre-populated fields. For SMS, the number entered in the 'To' field is set as the Recipient when the 'Send SMS' button is pressed. For E-Mail, the recipient, subject and message are passed to the E-Mail Application when 'Send E-mail' is pressed. The CC and BCC E-Mail fields could also be set by the developer.
 
 #### Orientation
 
-![Orientation value](raw/node/docs/Sencha_device_api_orientation.png)
+![Orientation value](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_orientation.png)
 
 When the App initialises, a callback is bound to the device orientation sensor. This is called from app.js. Whenever the device is rotated, this callback is run, which updates the Orientation field with the current orientation value. On iPhone the possible values are 0, 90, -90 and 180. On Android the possible values are 0 and 90.
 
 #### Map
 
-![Map loaded and initialised](raw/node/docs/Sencha_device_api_map.png)
+![Map loaded and initialised](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_map.png)
 
 This feature demonstrates the Mapping api. It works by passing a pair of latitude/longitude coordinates to the $fh.map function, which then initialises a Map at that location. In this App, the coordinates from doing a geolocation lookup are used for the Map initialisation. If the Geolocation lookup fails, a pair of default coordinates (hardcoded in the App) are used:
 
@@ -167,11 +167,11 @@ $fh.geo({interval: 0}, function (res) {
 
 #### Audio
 
-![Options before playing](raw/node/docs/Sencha_device_api_audio_opts.png)
+![Options before playing](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_audio_opts.png)
 
-![Audio successfully playing](raw/node/docs/Sencha_device_api_audio_playing.png)
+![Audio successfully playing](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_audio_playing.png)
 
-![Options while playing](raw/node/docs/Sencha_device_api_audio_opts_while_playing.png)
+![Options while playing](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_audio_opts_while_playing.png)
 
 The Audio section of the App demonstrates the streaming capabilites when using the [config:provider] API. This part of the API has undergone some changes and support for it across each platform is continuously improving. There are 2 stream of audio available to play in the App. The first is the Live stream for the Beat radio station. This MP3 stream uses http on port 8090, and works on iOS devices.
 
@@ -179,7 +179,7 @@ The second one is the Live stream for RTÉ Radio, which works on Android devices
 
 #### Webview
 
-![Webview in action](raw/node/docs/Sencha_device_api_webview.png)
+![Webview in action](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_webview.png)
 
 The Webview section demonstrates hows to send the User to an external site without the need to close the App. The 2 external sites here are the [whitelabel sitename] homepage and Google. The Webview slides in on top of the App, showing the site. The Webview has a toolbar at the top with some navigation otptions and the page title. The title and url are the only items need to be passed into the webview API:
 
