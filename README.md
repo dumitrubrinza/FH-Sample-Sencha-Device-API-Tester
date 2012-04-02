@@ -19,7 +19,7 @@ The Features of the App are explained in a section for each item below. The sour
 
 ![Sencha Grouped Contacts list](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_contact_list.png)
 
-![Device Contacts GUI](/raw/node/docs/Sencha_device_api_contact_gui.png)
+![Device Contacts GUI](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_contact_gui.png)
 
 The user can 'List Contacts' or create a new Contact. Listing the Device Contacts opens a grouped list showing all contacts on the device (see screen capture). The graphical component of the list is a Sencha Grouped List. To create this list, a Sencha Data Store is setup with the contacts, which then get passed into the List contstructor. The List creation process can be seen here:
 
