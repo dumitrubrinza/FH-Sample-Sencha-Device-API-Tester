@@ -17,7 +17,7 @@ The Features of the App are explained in a section for each item below. The sour
 
 ### Contacts
 
-![Sencha Grouped Contacts list](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_contact_list.png)
+![Sencha Grouped Contacts list](FH-Sample-Sencha-Device-API-Tester/blob/master/docs/Sencha_device_api_contact_list.png)
 
 ![Device Contacts GUI](FH-Sample-Sencha-Device-API-Tester/raw/master/docs/Sencha_device_api_contact_gui.png)
 
